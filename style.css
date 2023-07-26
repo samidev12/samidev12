@@ -1,0 +1,327 @@
+.nav-item{
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn1{
+    border: 1px rgb(194, 194, 194) solid;
+    background-color: white;
+    padding: 4px 20px 4px 20px;
+    border-radius: 20px;
+}
+.btn1:hover{
+    border: 1px black solid;
+}
+.btn2{
+    border: none;
+    background-color:#407BFF;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    color: white;
+}
+.first-content h1{
+    font-size: 70px;
+    padding: 30px 0px 0px 0px;
+    font-family: Arial;
+    font-weight: 700;
+}
+.first-content p{
+    font-size: 16px;
+    padding-right: 130px;
+    font-family: Arial;
+    font-weight: 400;
+    color: #939393;
+}
+.first-img img{
+    width: 600px;
+    position: relative;
+    right: 100px;
+}
+@media only screen and (max-width: 768px) {
+    .first-img img{
+        display: none;
+    }
+}
+.btn3{
+    border: none;
+    background-color:#407BFF;
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    color: white;
+    font-size: 12px;
+}
+.btn3:hover{
+    background-color: #5489FF;
+}
+.btn4{
+    border: none;
+    background-color: white;
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    color: #407BFF;
+    border: 1px #407BFF solid;
+    font-size: 12px;
+}
+.btn4:hover{
+    background-color: #407BFF;
+    color: white;
+}
+.section-2{
+    padding-top: 180px
+}
+ .section-2 h6{
+    font-size: 13px;
+    color: #407bff;
+    font-family: Arial;
+    font-weight: 700;
+ }
+ .section-2 h1{
+    font-size: 38px;
+    font-family: Arial;
+    font-weight: 500;
+ }
+ .section-2 .para1{
+    font-size: 16px;
+    padding: 0px 120px 0px 0px;
+    color: #939393;
+    font-family: Arial;
+    font-weight: 400;
+ }
+ .section-2 .para2{
+    font-size: 16px;
+    padding: 0px 110px 0px 0px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 400;
+ }
+ .display{
+    display: flex;
+ }
+ .display img{
+    width: 50px;
+    border-radius: 100%;
+ }
+.vedio-sec img{
+    width: 100%;
+    margin-top: 180px;
+    box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+    border: 10px solid #ffffff;
+}
+.Third-Sec{
+    margin-top: 100px;
+    padding-bottom: 80px;
+    background-color: #f0f2f3;
+}
+.dashboard-sec img{
+    width: 100%;
+    margin-top: 100px;
+    box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+    border: 10px solid #ffffff;
+}
+.flex{
+    padding: 15px;
+    margin: 8px;
+    display: flex;
+}
+.flex:hover{
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+}
+.flex h2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial;
+    position: relative;
+    left: 4%;
+}
+.flex p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial;
+    color: #939393;
+    position: relative;
+    left: 4%;
+}
+.flex2{
+    background-color: #FFFFFF;
+    border-right: 3px solid #407BFF;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    margin: 8px;
+}
+.flex2 h2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial;
+    position: relative;
+    left: 4%;
+}
+.flex2 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial;
+    color: #939393;
+    position: relative;
+    left: 4%;
+}
+.box{
+    width: 70px;
+    height: 40px;  
+    border-radius: 10px;
+}
+.box svg{
+    position: relative;
+    top: 6px;
+    left: 12px;
+}
+.box1{
+    width: 50px;
+    height: 50px;  
+    border-radius: 13px;
+    margin: 0px 0px 30px 0px;
+}
+.box1 svg{
+    position: relative;
+    top: 9px;
+    left: 15px;
+}
+.frth-section h2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial;
+}
+.frth-section p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial;
+    color: #939393;
+}
+.card-section{
+    padding: 100px 0px 100px 0px;
+}
+.card-section h1{
+    font-size: 38px;
+    font-weight: 500;
+    font-family: Arial;
+}
+.card-section p{
+    font-size: 16px;
+    color: #939393;
+    font-weight: 400;
+    font-family: Arial;
+}
+.card_body{
+    border-radius: 40px;
+    width: 85%;
+}
+.card_body button{
+    border: none;
+    background-color: white;
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    color: #407BFF;
+    border: 1px #407BFF solid;
+    font-size: 12px;
+    position: relative;
+    left: 10%;
+}
+.card_body button:hover{
+    background-color: #407BFF;
+    color: white;
+}
+.read-more {
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+    left: 4%;
+    text-decoration: none;
+}
+.about h6{
+    color: #407BFF;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial;
+}
+.about h1{
+    font-size: 38px;
+    font-weight: 500;
+    font-family: Arial;
+}
+.about p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial;
+    color: #939393;
+}
+.form h1{
+    font-size: 38px;
+    font-weight: 500;
+    font-family: Arial;
+}
+.form h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial;
+    color: #939393;
+}
+.form label{
+    color: #939393;
+}
+.form input{
+    width: 80%;
+    outline: none;
+    border-width: 0 0 1.8px;
+}
+.form input:hover{
+    border-color: #407BFF;
+    border-width: 0 0 2px;
+}
+.form textarea{
+    outline: none;
+    border-width: 0 0 1.8px;
+}
+.form textarea:hover{
+    outline: none;
+    border-color: #407BFF;
+    border-width: 0 0 2px;
+}
+.btn3{
+    border: none;
+    background-color:#407BFF;
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    color: white;
+}
+.footer{
+    padding: 4% 4% 2% 4%;
+    background-color: #EFEFEF;
+}
+.footer h5{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial;
+    font-weight: bold;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial;
+    color: #888888;
+}
+.footer p a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial;
+    color: #888888;
+    text-decoration: none;
+}
+.icon{
+    background-color: #888888;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
